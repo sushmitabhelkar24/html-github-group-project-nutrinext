@@ -49,19 +49,20 @@
 <div align="center">
         <h1>Your Contact Information :</h1>
   <table>
-    <tr>
-    <td>     
+       
  <form>
-  <b>Title*</b> <br>
-  <input list="titlelist"/>
-  <datalist id="titlelist">
-    <option>Mr</option>
-    <option>Mrs</option>
-    <option>Ms</option>
-    <option>Miss</option>
-    <option>Dr</option>
-    <option>Other</option>
-    </datalist><br>
+   <tr>
+    <td> 
+ <b><u>Select Gender </u></b><br><br>
+
+  <input type="radio" name="a"/> &nbsp;&nbsp;Male<br><br>
+  <input type="radio" name="a"/> &nbsp;&nbsp;Female<br><br>
+  <input type="radio" name="a"/> &nbsp;&nbsp;Other<br><br>
+  </td></tr>
+
+  <tr>
+<td>
+
  <br><label for ="firstname" (size 60) ><b>First Name : *</b></label><br> 
   <input type="text" id="firstname" required></td>
 
@@ -132,8 +133,15 @@
     <option>Other</option>
     </datalist><br><br>
     </td></tr>
-    <tr>
+    <tr><td>
+          
+ 
+  <input type="checkbox" required/>  <b> I accept the terms and conditions</b><br>
+    </td></tr>
+
     </table>
+
+ 
 
   <input type="submit" value="SUBMIT" /><br><br>
  </form>
