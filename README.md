@@ -6,3 +6,9 @@ The website consists of webpages like diets, blog to first acknowledge user with
 
 ![Website Image](./images/readme.png)
 
+___
+
+## Visit Us
+
+***Link*** : [NutriNext.com](https://nutrinexthtml.netlify.app/)
+
